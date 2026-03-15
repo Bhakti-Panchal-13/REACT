@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 // import './App.css'
+import Heading from "./component.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -115,6 +116,7 @@ function App() {
       {/*<div className="ticks"></div>*/}
       {/*<section id="spacer"></section>*/}
       <h1>This app is created using npm create vite@latest</h1>
+        <Heading/>
     </>
   )
 }
