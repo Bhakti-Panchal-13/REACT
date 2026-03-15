@@ -7,9 +7,14 @@ import Heading from "./component.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
+  const username = "Bhakti Panchal"
 
   return (
     <>
+       <h1>This app is created using npm create vite@latest {username}</h1> {/*this is evaluated expression , use final evaluated value , cannot use pure js inside {}*/}
+        <Heading username={username} />{/*passing props*/}
+
+
       {/*<section id="center">*/}
       {/*  <div className="hero">*/}
       {/*    <img src={heroImg} className="base" width="170" height="179" alt="" />*/}
@@ -115,8 +120,7 @@ function App() {
 
       {/*<div className="ticks"></div>*/}
       {/*<section id="spacer"></section>*/}
-      <h1>This app is created using npm create vite@latest</h1>
-        <Heading/>
+
     </>
   )
 }

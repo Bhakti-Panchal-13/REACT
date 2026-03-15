@@ -1,7 +1,7 @@
 //Child component naming should always start with capital letter
-function Heading(){
+function Heading({username}){
     return(
-        <h2>this is Child Component</h2>
+        <h2>this is Child Component {username}</h2>
     )
 }
 export default Heading
