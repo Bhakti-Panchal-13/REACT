@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
+import Heading from "./component"
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       {/*  </a>*/}
       {/*</header>*/}
       <h1> this app is create by using npx create-react-app </h1>
+        <Heading/>
     </div>
   );
 }
